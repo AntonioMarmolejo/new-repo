@@ -1,6 +1,35 @@
+ol {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: start;
+}
+
+.section {
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+}
+
 .color-listas {
-    border: 2px solid #ff10;
-    height: 30px;
-    width: 100%;
+    margin: 0;
+    border: 2px solid rgb(228, 79, 20);
+    height: 200px;
+    width: 500px;
     background-color: blue;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.color-pie-pagina {
+    margin: 0;
+    border: 1px solid rgb(228, 79, 20);
+    height: 20px;
+    width: 50%;
+    background-color: white;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    text-decoration-color: blanchedalmond;
 }
